@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>프로그램</title>
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/program_page.css">
+  <script defer src="../js/jquery-3.6.4.min.js"></script>
+  <script defer src="../js/burgerBtn.js"></script>
+</head>
+<body>
+  <!-- Desktop -->
+  <div id="D_wrap">
+    <header>
+      <h1 class="logo">
+        <a href="../index.html"><img src="../image/E&A_logo.png" alt="E&A GYM 메인로고" class="logo_img"></a>
+      </h1>
+      <ul>
+        <li><a href="#" class="login_btn">로그인</a></li>
+        <li><a href="#" class="join_btn">회원가입</a></li>
+      </ul>
+    </header>
+
+    <nav id="main_nav">
+      <ul>
+        <li class="nav_btn"><a href="#">E&A소개</a></li>
+        <li class="nav_btn"><a href="program_page.html">프로그램</a></li>
+        <li class="nav_btn"><a href="map_page.html">지점안내</a></li>
+        <li class="nav_btn"><a href="#">회원페이지</a></li>
+      </ul>
+    </nav>
+
+    <div id="wrap">
+      <h1>프로그램 소개</h1>
+      <div id="pt_int">
+        <div class="title">퍼스널 트레이닝</div>
+        <ul>
+          <li>
+            <img src="../image/2-1.PT.jpg" alt="1:1 PT" class="pro_img">
+            <p class="program_intro">
+              <b>[1:1 PT]</b>
+              <br><br>수업시간동안 전문 트레이너가 회원님의 운동을 보조합니다.
+              <br>회원님께 필요한 식단조절 및 생활습관 개선 등에도 도움을 드립니다.
+              <br>운동을 처음 시작하시는 분, 어떻게 운동을 해야할 지 감이 오지 않는 분들께 <br>추천드립니다.
+            </p>
+            <p class="intro_link">
+              <a href="#"><b>트레이너 소개》</b></a>
+              <br><a href="#"><b>가격 안내》</b></a>
+            </p>
+          </li>
+          <li>
+            <img src="../image/2-1.그룹PT.jpg" alt="그룹PT" class="pro_img">
+            <p class="program_intro">
+              <b>[그룹 PT]</b>
+              <br><br>한 그룹에 최소 두 분, 최대 네 분으로 구성되는 프로그램입니다.
+              <br>연인끼리, 친구들끼리, 혹은 운동 친구를 사귀고 싶으신 분들께
+              <br>추천드립니다.
+            </p>
+            <p class="intro_link">
+              <a href="#"><b>트레이너 소개》</b></a>
+              <br><a href="#"><b>가격 안내》</b></a>
+              <br><a href="#"><b>시간 안내》</b></a>
+            </p>
+          </li>
+        </ul>
+      </div>
+
+      <div id="phila_int">
+        <div class="title">필라테스</div>
+        <ul>
+          <li>
+            <img src="../image/2-2.개인필라테스.jpg" alt="1:1 필라테스" class="pro_img">
+            <p>
+              <b>[1:1 필라테스]</b>
+              <br><br>전문 필라테스 강사가 회원님의 상태에 맞춘 수업을 진행합니다.
+              <br>재활이 필요하신 분, 프라이빗한 수업을 원하시는 분들께 추천드립니다.
+            </p>
+            <p class="intro_link">
+              <a href="#"><b>트레이너 소개》</b></a>
+              <br><a href="#"><b>가격 안내》</b></a>
+            </p>
+          </li>
+          <li>
+            <img src="../image/2-2.단체필라테스.jpg" alt="그룹 필라테스" class="pro_img">
+            <p>
+              <b>[그룹 필라테스]</b>
+              <br><br>한 수업당 최소 두 분, 최대 일곱분이 함께하는 그룹 수업입니다.
+              <br>속근육을 사용하여 탄탄하고 균형잡힌 몸을 만드실 수 있습니다.
+            </p>
+            <p class="intro_link">
+              <a href="#"><b>트레이너 소개》</b></a>
+              <br><a href="#"><b>가격 안내》</b></a>
+              <br><a href="#"><b>시간 안내》</b></a>
+            </p>
+          </li>
+        </ul>
+      </div>
+
+      <div id="yoga_int">
+        <div class="title">요가</div>
+        <ul>
+          <li>
+            <img src="../image/2-3.개인요가.png" alt="1:1 요가" class="pro_img">
+            <p>
+              <b>[1:1 요가]</b>
+              <br><br>전문 요가 강사님과 1:1로 수업하면서 체계적인 요가법을 배우실 수 있습니다.
+              <br>1:1로 수업을 원하시는 분들께 추천드립니다.
+            </p>
+            <p class="intro_link">
+              <a href="#"><b>트레이너 소개》</b></a>
+              <br><a href="#"><b>가격 안내》</b></a>
+            </p>
+          </li>
+          <li>
+            <img src="../image/2-3.그룹요가.jpg" alt="그룹 요가" class="pro_img">
+            <p>
+              <b>[그룹 요가]</b>
+              <br><br>한 수업당 최대 열 분과 함께 수업을 진행하는 그룹 프로그램입니다.
+              <br>바쁜 현대사회에서 자기 자신을 찾고자 하시는 분들께 추천드립니다.
+            </p>
+            <p class="intro_link">
+              <a href="#"><b>트레이너 소개》</b></a>
+              <br><a href="#"><b>가격 안내》</b></a>
+              <br><a href="#"><b>시간 안내》</b></a>
+            </p>
+          </li>
+        </ul>
+      </div>
+
+      <div id="spin_int">
+        <div class="title">스피닝</div>
+        <ul>
+          <li>
+            <img src="../image/2-4.스피닝.png" alt="스피닝" class="pro_img">
+            <p>
+              <b>[스피닝]</b>
+              <br><br>신나는 음악과 함께하는 전신 운동입니다.
+              <br>스피드감 있는 운동을 원하시는 분, 단시간에 많은 칼로리를
+              <br>소모하셔야하는 분들께 추천드립니다.
+              <br>(본 프로그램은 1:1 수업을 진행하지 않습니다.)
+            </p>
+            <p class="intro_link">
+              <a href="#"><b>트레이너 소개》</b></a>
+              <br><a href="#"><b>가격 안내》</b></a>
+              <br><a href="#"><b>시간 안내》</b></a>
+            </p>
+          </li>
+        </ul>
+      </div>
+
+      <footer>
+        <div id="intro">
+          <ul>
+            <li><a href="#">회사소개</a></li>
+            <li><a href="#">입사지원</a></li>
+            <li><a href="#">제휴문의</a></li>
+            <li><a href="#">이용약관</a></li>
+            <li><a href="#">개인정보처리방침</a></li>
+          </ul>
+        </div>
+
+        <div id="sns">
+          <ul>
+            <li><a href="#">E&A 공식 카카오톡 채널<br>@E&A_GYM</a></li>
+            <li>
+              <p>
+                상담 가능시간
+                <br>월~금: 오전 10시 ~ 오후 6시
+                <br>상담업무휴무일
+                <br>: 토, 일, 법정공휴일
+              </p>
+            </li>
+            <li>
+              <p>
+                무통장 입금계좌
+                <br>한국은행 0000-00-000000
+                <br>(주식회사 E&A)
+              </p>
+            </li>
+            <li>
+              <div class="sns_list">
+                <a href="#"><img src="../image/instagram.png" alt="인스타그램" class="sns_img"></a>
+                <a href="#"><img src="../image/naver_blog.png" alt="네이버 블로그" class="sns_img"></a>
+                <a href="#"><img src="../image/youtube.png" alt="유튜브" class="sns_img"></a>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div id="info">
+          <p>
+            (주)E&A 대표 이민희 | 개인정보보호책임자 이민희 | 경기도 부천시 원미구 심곡동 | 통신판매업신고번호 2022-경기부천-1111
+            <br>등록번호 000-00-00000 | 본사 전화번호 031 000 0000 | info@EACorp.co.kr | Hosting by (주) 그린컴
+          </p>
+          <p>ⓒ2022 Suplies, Inc. ALL RIGHTS RESERVED</p>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <!-- Desktop end -->
+
+  <!-- Tablet -->
+  <div id="T_wrap">
+    <header>
+      <h1 class="t_logo">
+        <a href="../index.html"><img src="../image/E&A_logo.png" alt="E&A GYM 메인로고" class="logo_img"></a>
+      </h1>
+      <ul>
+        <li><a href="#" class="login_btn">로그인</a></li>
+        <li><a href="#" class="join_btn">회원가입</a></li>
+      </ul>
+    </header>
+
+    <nav id="t_main_nav">
+      <ul>
+        <li class="t_nav_btn"><a href="#">E&A 소개</a></li>
+        <li class="t_nav_btn"><a href="program_page.html">프로그램</a></li>
+        <li class="t_nav_btn"><a href="map_page.html">지점안내</a></li>
+        <li class="t_nav_btn"><a href="#">회원페이지</a></li>
+      </ul>
+    </nav>
+
+    <div id="t_wrap">
+      <h1>프로그램 소개</h1>
+      <div id="t_pt_int">
+        <div class="t_title">퍼스널 트레이닝</div>
+        <ul>
+          <li>
+            <img src="../image/2-1.PT.jpg" alt="1:1 PT" class="t_pro_img">
+            <p class="t_program_intro">
+              <b>[1:1 PT]</b>
+              <br><br>수업시간동안 전문 트레이너가 회원님의 운동을 보조합니다.
+              <br>회원님께 필요한 식단조절 및 생활습관 개선 등에도 도움을 드립니다. 
+              운동을 처음 시작하시는 분, 어떻게 운동을 해야할 지 감이 오지 않는 분들께 추천드립니다.
+            </p>
+            <p class="t_intro_link">
+              <a href="#"><b>트레이너 소개》</b></a>
+              <br><a href="#"><b>가격 안내》</b></a>
+            </p>
+          </li>
+          <li>
+            <img src="../image/2-1.그룹PT.jpg" alt="그룹PT" class="t_pro_img">
+            <p class="t_program_intro">
+              <b>[그룹 PT]</b>
+              <br><br>한 그룹에 최소 두 분, 최대 네 분으로 구성되는 프로그램입니다.
+              <br>연인끼리, 친구들끼리, 혹은 운동 친구를 사귀고 싶으신 분들께
+              <br>추천드립니다.
+            </p>
+            <p class="t_intro_link">
+              <a href="#"><b>트레이너 소개》</b></a>
+              <br><a href="#"><b>가격 안내》</b></a>
+              <br><a href="#"><b>시간 안내》</b></a>
+            </p>
+          </li>
+        </ul>
+      </div>
+
+      <div id="t_phila_int">
+        <div class="t_title">필라테스</div>
+        <ul>
+          <li>
+            <img src="../image/2-2.개인필라테스.jpg" alt="1:1 필라테스" class="t_pro_img">
+            <p>
+              <b>[1:1 필라테스]</b>
+              <br><br>전문 필라테스 강사가 회원님의 상태에 맞춘 수업을 진행합니다.
+              <br>재활이 필요하신 분, 프라이빗한 수업을 원하시는 분들께 추천드립니다.
+            </p>
+            <p class="t_intro_link">
+              <a href="#"><b>트레이너 소개》</b></a>
+              <br><a href="#"><b>가격 안내》</b></a>
+            </p>
+          </li>
+          <li>
+            <img src="../image/2-2.단체필라테스.jpg" alt="그룹 필라테스" class="t_pro_img">
+            <p>
+              <b>[그룹 필라테스]</b>
+              <br><br>한 수업당 최소 두 분, 최대 일곱분이 함께하는 그룹 수업입니다.
+              <br>속근육을 사용하여 탄탄하고 균형잡힌 몸을 만드실 수 있습니다.
+            </p>
+            <p class="t_intro_link">
+              <a href="#"><b>트레이너 소개》</b></a>
+              <br><a href="#"><b>가격 안내》</b></a>
+              <br><a href="#"><b>시간 안내》</b></a>
+            </p>
+          </li>
+        </ul>
+      </div>
+
+      <div id="t_yoga_int">
+        <div class="t_title">요가</div>
+        <ul>
+          <li>
+            <img src="../image/2-3.개인요가.png" alt="1:1 요가" class="t_pro_img">
+            <p>
+              <b>[1:1 요가]</b>
+              <br><br>전문 요가 강사님과 1:1로 수업하면서 체계적인 요가법을 배우실 수 있습니다.
+              <br>1:1로 수업을 원하시는 분들께 추천드립니다.
+            </p>
+            <p class="t_intro_link">
+              <a href="#"><b>트레이너 소개》</b></a>
+              <br><a href="#"><b>가격 안내》</b></a>
+            </p>
+          </li>
+          <li>
+            <img src="../image/2-3.그룹요가.jpg" alt="그룹 요가" class="t_pro_img">
+            <p>
+              <b>[그룹 요가]</b>
+              <br><br>한 수업당 최대 열 분과 함께 수업을 진행하는 그룹 프로그램입니다.
+              <br>바쁜 현대사회에서 자기 자신을 찾고자 하시는 분들께 추천드립니다.
+            </p>
+            <p class="t_intro_link">
+              <a href="#"><b>트레이너 소개》</b></a>
+              <br><a href="#"><b>가격 안내》</b></a>
+              <br><a href="#"><b>시간 안내》</b></a>
+            </p>
+          </li>
+        </ul>
+      </div>
+
+      <div id="t_spin_int">
+        <div class="t_title">스피닝</div>
+        <ul>
+          <li>
+            <img src="../image/2-4.스피닝.png" alt="스피닝" class="t_pro_img">
+            <p>
+              <b>[스피닝]</b>
+              <br><br>신나는 음악과 함께하는 전신 운동입니다.
+              <br>스피드감 있는 운동을 원하시는 분, 단시간에 많은 칼로리를
+              <br>소모하셔야하는 분들께 추천드립니다.
+              <br>(본 프로그램은 1:1 수업을 진행하지 않습니다.)
+            </p>
+            <p class="t_intro_link">
+              <a href="#"><b>트레이너 소개》</b></a>
+              <br><a href="#"><b>가격 안내》</b></a>
+              <br><a href="#"><b>시간 안내》</b></a>
+            </p>
+          </li>
+        </ul>
+      </div>
+
+      <footer>
+        <div id="t_intro">
+          <ul>
+            <li><a href="#">회사소개</a></li>
+            <li><a href="#">입사지원</a></li>
+            <li><a href="#">제휴문의</a></li>
+            <li><a href="#">이용약관</a></li>
+            <li><a href="#">개인정보처리방침</a></li>
+          </ul>
+        </div>
+
+        <div id="t_sns">
+          <ul>
+            <li><a href="#">E&A 공식 카카오톡 채널<br>@E&A_GYM</a></li>
+            <li>
+              <p>
+                상담 가능시간
+                <br>월~금: 오전 10시 ~ 오후 6시
+                <br>상담업무휴무일
+                <br>: 토, 일, 법정공휴일
+              </p>
+            </li>
+            <li>
+              <p>
+                무통장 입금계좌
+                <br>한국은행 0000-00-000000
+                <br>(주식회사 E&A)
+              </p>
+            </li>
+            <li>
+              <div class="t_sns_list">
+                <a href="#"><img src="../image/instagram.png" alt="인스타그램" class="t_sns_img"></a>
+                <a href="#"><img src="../image/naver_blog.png" alt="네이버 블로그" class="t_sns_img"></a>
+                <a href="#"><img src="../image/youtube.png" alt="유튜브" class="t_sns_img"></a>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div id="t_info">
+          <p>
+            (주)E&A 대표 이민희 | 개인정보보호책임자 이민희 | 경기도 부천시 원미구 심곡동 | 통신판매업신고번호 2022-경기부천-1111
+            <br>등록번호 000-00-00000 | 본사 전화번호 031 000 0000 | info@EACorp.co.kr | Hosting by (주) 그린컴
+          </p>
+          <p>ⓒ2022 Suplies, Inc. ALL RIGHTS RESERVED</p>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <!-- Tablet end -->
+
+  <!-- Mobile -->
+  <div id="M_wrap">
+    <header>
+      <h1>
+        <a href="../index.html"><img src="../image/E&A_logo.png" alt="E&A GYM 메인로고" class="logo_img"></a>
+      </h1>
+      <div id="slide_open" class="slide_open">
+        <span id="burger" class="burger">
+          <span class="top-line"></span>
+          <span class="bottom-line"></span>
+        </span>
+      </div>
+      <div id="slide_menu">
+        <ul class="m_list">
+          <li><a href="#" class="login_btn">로그인</a></li>
+          <li><a href="#" class="join_btn">회원가입</a></li>
+          <li><a href="#">E&A 소개</a></li>
+          <li><a href="program_page.html">프로그램</a></li>
+          <li><a href="map_page.html">지점안내</a></li>
+          <li><a href="#">회원 페이지</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <div id="m_wrap">
+      <h1>프로그램 소개</h1>
+      <div id="m_pt_int">
+        <ul>
+          <li>
+            <img src="../image/2-1.PT.jpg" alt="1:1 PT" class="m_pro_img">
+            <p class="m_program_intro">
+              <b>[1:1 PT]</b>
+              <br><br>수업시간동안 전문 트레이너가 회원님의 운동을 보조합니다.
+              회원님께 필요한 식단조절 및 생활습관 개선 등에도 도움을 드립니다.
+              운동을 처음 시작하시는 분, 어떻게 운동을 해야할 지 감이 오지 않는 분들께 추천드립니다.
+            </p>
+            <p class="m_intro_link">
+              <a href="#">트레이너 소개</a>
+              <a href="#">가격 안내</a>
+            </p>
+          </li>
+          <li>
+            <img src="../image/2-1.그룹PT.jpg" alt="그룹PT" class="m_pro_img">
+            <p class="m_program_intro">
+              <b>[그룹 PT]</b>
+              <br><br>한 그룹에 최소 두 분, 최대 네 분으로 구성되는 프로그램입니다.
+              연인끼리, 친구들끼리, 혹은 운동 친구를 사귀고 싶으신 분들께 추천드립니다.
+            </p>
+            <p class="m_intro_link-g">
+              <a href="#">트레이너 소개</a>
+              <a href="#">가격 안내</a>
+              <a href="#">시간 안내</a>
+          </p>
+          </li>
+        </ul>
+      </div>
+
+      <div id="m_phila_int">
+        <ul>
+          <li>
+            <img src="../image/2-2.개인필라테스.jpg" alt="1:1 필라테스" class="m_pro_img">
+            <p class="m_program_intro">
+              <b>[1:1 필라테스]</b>
+              <br><br>전문 필라테스 강사가 회원님의 상태에 맞춘 수업을 진행합니다.
+              재활이 필요하신 분, 프라이빗한 수업을 원하시는 분들께 추천드립니다.
+            </p>
+            <p class="m_intro_link">
+              <a href="#">트레이너 소개</a>
+              <a href="#">가격 안내</a>
+            </p>
+          </li>
+          <li>
+            <img src="../image/2-2.단체필라테스.jpg" alt="단체 필라테스" class="m_pro_img">
+            <p class="m_program_intro">
+              <b>[그룹 필라테스]</b>
+              <br><br>한 수업당 최소 두 분, 최대 일곱분이 함께하는 그룹 수업입니다.
+              속근육을 사용하여 탄탄하고 균형잡힌 몸을 만드실 수 있습니다.
+            </p>
+            <p class="m_intro_link-g">
+              <a href="#">트레이너 소개</a>
+              <a href="#">가격 안내</a>
+              <a href="#">시간 안내</a>
+            </p>
+          </li>
+        </ul>
+      </div>
+
+      <div id="m_yoga_int">
+        <ul>
+          <li>
+            <img src="../image/2-3.개인요가.png" alt="1:1 요가" class="m_pro_img">
+            <p class="m_program_intro">
+              <b>[1:1 요가]</b>
+              <br><br>전문 요가 강사님과 1:1로 수업하면서 체계적인 요가를 배우실 수 있습니다.
+              1:1로 수업을 원하시는 분들께 추천드립니다.
+            </p>
+            <p class="m_intro_link-g">
+              <a href="#">트레이너 소개</a>
+              <a href="#">가격 안내</a>
+            </p>
+          </li>
+          <li>
+            <img src="../image/2-3.그룹요가.jpg" alt="그룹요가" class="m_pro_img">
+            <p class="m_program_intro">
+              <b>[그룹 요가]</b>
+              <br><br>한 수업당 최대 열 분과 함께 수업을 진행하는 그룹 프로그램입니다.
+              바쁜 현대사회에서 자기 자신을 찾고자 하시는 분들께 추천드립니다.
+            </p>
+            <p class="m_intro_link-g">
+              <a href="#">트레이너 소개</a>
+              <a href="#">가격 안내</a>
+              <a href="#">시간 안내</a>
+            </p>
+          </li>
+        </ul>
+      </div>
+
+      <div id="m_spin_int">
+        <ul>
+          <li>
+            <img src="../image/2-4.스피닝.png" alt="스피닝" class="m_pro_img">
+            <p class="m_program_intro">
+              <b>[스피닝]</b>
+              <br><br>신나는 음악과 함께하는 전신 운동입니다.
+              스피드감 있는 운동을 원하시는 분, 단시간에 많은 칼로리를
+              소모하셔야하는 분들께 추천드립니다.
+              <br>(본 프로그램은 1:1 수업을 진행하지 않습니다.)
+            </p>
+            <p class="m_intro_link-g">
+              <a href="#">트레이너 소개</a>
+              <a href="#">가격 안내</a>
+              <a href="#">시간 안내</a>
+            </p>
+          </li>
+        </ul>
+      </div>
+
+      <footer>
+        <ul>
+          <li>
+            <a href="#">
+              <img src="../image/instagram.png" alt="인스타그램" class="m_sns_img">
+              <span class="sns_title">INSTAGRAM</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="../image/naver_blog.png" alt="네이버블로그" class="m_sns_img">
+              <span class="sns_title">NAVER BLOG</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="../image/youtube.png" alt="유튜브" class="m_sns_img">
+              <span class="sns_title">YOUTUBE</span>
+            </a>
+          </li>
+          <li><a href="#" class="kakao_info">E&A 공식<br>카카오톡 채널@E&A GYM</a></li>
+          <li>
+            <p>
+              상담가능시간
+              <br>월~금: 오전 10시 ~ 오후 6시
+              <br>상담업무휴무: 토, 일, 법정공휴일
+            </p>
+          </li>
+          <li>
+            <p>
+              무통장 입금 계좌
+              <br>한국은행 0000-00-000000
+              <br>(주식회사 E&A)
+            </p>
+          </li>
+        </ul>
+
+        <p id="m_info">
+          (주)E&A 대표 이민희 | 개인정보보호책임자 이민희 | 경기도 부천시 원미구 심곡동 | 통신판매업신고번호 2022-경기부천-1111
+          <br>등록번호 000-00-00000 | 본사 전화번호 031 000 0000 | info@EACorp.co.kr | Hosting by (주) 그린컴
+          <br>
+          <br>ⓒ2022 Supplies, Inc. ALL RIGHTS RESERVED.
+        </p>
+      </footer>
+    </div>
+  </div>
+  <!-- Mobile end -->
+</body>
+</html>

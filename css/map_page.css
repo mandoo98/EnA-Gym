@@ -1,0 +1,316 @@
+/* Desktop */
+@media screen and (min-width: 1023px) {
+  #wrap {
+    position: relative;
+    max-width: 1200px;
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+  }
+
+  #wrap > h1 {
+    margin: 25px 0 100px 0;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  /* loaction */
+  #location {
+    width: 900px;
+    height: 100%;
+    margin: 0 auto;
+  }
+  #location:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  #location > select {
+    display: block;
+    width: 500px;
+    height: 60px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background: linear-gradient(to right,#8b30e0,#f2e500);
+    text-align: center;
+    text-align-last: center;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  #location > select > option {font-weight: bold;}
+  #location > .main_lo {margin-bottom: 20px;}
+  /* location end */
+
+  /* shop */
+  #shop {width: 100%;}
+  #shop:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  iframe {
+    width: 100%;
+    height: 600px;
+    margin-top: 10px;
+  }
+
+  .shop_intro {
+    width: 600px;
+    margin: 0 auto;
+  }
+  
+  .shop_intro > h1 {
+    text-align: center;
+    margin: 200px 0 50px 0;
+  }
+
+  .shop_intro > .shop_img {
+    width: 100%;
+    height: 400px;
+  }
+
+  .shop_intro > p {
+    font-size: 18px;
+    text-align: center;
+    line-height: 26px;
+    border: 1px solid;
+    border-image:linear-gradient(to right,#8b30e0,#f2e500);
+    border-image-slice:1;
+    padding: 10px;
+  }
+
+  .shop_map > p {
+    font-size: 18px;
+    text-align: center;
+    border:1px solid;
+    border-image:linear-gradient(to right,#8b30e0,#f2e500);
+    border-image-slice:1;
+    padding: 20px;
+  }
+  /* shop end */
+}
+/* Desktop end */
+
+/* Tablet */
+@media screen and (min-width:768px) and (max-width:1023px) {
+  #t_wrap {
+    width: 100%;
+    margin: 0 auto;
+  }
+  #t_wrap:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  #t_wrap > h1 {
+    font-size: 28px;
+    text-align: center;
+    margin: 30px auto 50px auto;
+  }
+
+  #t_location {
+    width: 100%;
+    margin: 0 auto;
+  }
+  #t_location:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  /* 지역선택 */
+  #t_location > select {
+    display: block;
+    width: 50%;
+    height: 60px;
+    border-radius: 10px;
+    background:linear-gradient(to right,#8b30e0,#f2e500);
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-align-last: center;
+    margin: 0 auto;
+  }
+  #t_location > select:first-child {margin-bottom: 20px;}
+
+  #t_location > select > option {font-weight: bold;}
+  /* 지역선택 end */
+
+  /* 지점 안내 */
+  #t_shop {
+    width: 100%;
+    margin: 0 auto;
+  }
+  #t_shop:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  .t_shop_intro {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+  }
+
+  .t_shop_intro > h1 {
+    text-align: center;
+    margin: 100px auto 40px auto;
+  }
+
+  .t_shop_intro > .t_shop_img {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+
+  .t_shop_intro > p {
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    border:1px solid;
+    border-image:linear-gradient(to right,#8b30e0,#f2e500);
+    border-image-slice:1;
+    padding: 10px;
+  }
+
+  #t_shop_map {
+    width: 90%;
+    margin: 10px auto 0 auto;
+  }
+  #t_shop_map:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  #t_shop_map > iframe {
+    width: 100%;
+    height: 450px;
+  }
+
+  #t_shop_map > p {
+    font-size: 18px;
+    text-align: center;
+    border:1px solid;
+    border-image:linear-gradient(to right,#8b30e0,#f2e500);
+    border-image-slice:1;
+    padding: 20px;
+  }
+  /* 지점 안내 end */
+}
+/* Tablet end */
+
+/* Mobile */
+@media screen and (min-width:360px) and (max-width:767px) {
+  #m_wrap {
+    width: 100%;
+    margin: 0 auto;
+  }
+  #m_wrap:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  #m_wrap > h1 {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  /* 지역선택 */
+  #location {
+    width: 50%;
+    margin: 0 auto 40px auto;
+  }
+  #location:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  #location > select {
+    width: 100%;
+    height: 40px;
+    border-radius:3px;
+    background:linear-gradient(to right,#8b30e0,#f2e500);
+    font-weight: bold;
+    text-align: center;
+  }
+  #location > select:first-child {margin-bottom: 10px;}
+
+  #location > select > option {font-weight: bold;}
+  /* 지역선택 end */
+
+  /* 지점소개 */
+  #m_shop {
+    width: 100%;
+    margin: 0 auto;
+  }
+  #m_shop:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  #m_shop > .m_shop_intro {
+    width: 90%;
+    margin: 0 auto 20px auto;
+  }
+  #m_shop > .m_shop_intro:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  #m_shop > .m_shop_intro > h1 {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  #m_shop > .m_shop_intro > img {
+    width: 100%;
+    height: 100%;
+  }
+
+  #m_shop > .m_shop_intro > p {
+    font-size: 12px;
+    text-align: center;
+    border:1px solid;
+    border-image:linear-gradient(to right,#8b30e0,#f2e500);
+    border-image-slice:1;
+    padding: 5px;
+  }
+
+  #m_shop_map {
+    width: 90%;
+    margin: 0 auto 20px auto;
+  }
+  #m_shop_map:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  #m_shop_map > iframe {
+    width: 100%;
+    height: 200px;
+  }
+
+  #m_shop_map > p {
+    font-size: 12px;
+    text-align: center;
+    border:1px solid;
+    border-image:linear-gradient(to right,#8b30e0,#f2e500);
+    border-image-slice:1;
+    padding: 5px;
+  }
+  /* 지점소개 end */
+}
+/* Mobile end */

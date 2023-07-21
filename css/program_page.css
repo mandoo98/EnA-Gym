@@ -1,0 +1,561 @@
+/* Desktop */
+@media screen and (min-width: 1023px) {
+  #wrap {
+    position: relative;
+    max-width: 1200px;
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+  }
+
+  #wrap > h1 {
+    margin: 25px 0 100px 0;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  /* 공통 */
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 50px 0;
+  }
+
+  .pro_img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .intro_link > a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+  }
+  .intro_link > a:first-child {color: #8b30e0;}
+  .intro_link > a:last-child {color: #f2e500;}
+  /* 공통 end */
+  
+  /* PT */
+  #pt_int {width: 100%;}
+  #pt_int:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  #pt_int > ul {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #pt_int > ul > li {
+    width: 49%;
+    float: left;
+  }
+  #pt_int > ul > li:first-child {margin-right: 2%;}
+
+  #pt_int > ul > li > p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+
+  #pt_int > ul > li > p > b {font-size: 24px;}
+  /* PT end */
+
+  /* 필라테스 */
+  #phila_int {width: 100%;}
+  #phila_int:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  #phila_int > ul {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #phila_int > ul > li {
+    width: 49%;
+    float: left;
+  }
+  #phila_int > ul > li:first-child {margin-right: 2%;}
+
+  #phila_int > ul > li > p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+
+  #phila_int > ul > li > p > b {font-size: 24px;}
+  /* 필라테스 end */
+
+  /* 요가 */
+  #yoga_int {width: 100%;}
+  #yoga_int:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  #yoga_int > ul {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #yoga_int > ul > li {
+    width: 49%;
+    float: left;
+  }
+  #yoga_int > ul > li:first-child {margin-right: 2%;}
+
+  #yoga_int > ul > li > p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+
+  #yoga_int > ul > li > p > b {font-size: 24px;}
+  /* 요가 end */
+
+  /* 스피닝 */
+  #spin_int {width: 100%;}
+  #spin_int:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  #spin_int > ul {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #spin_int > ul > li {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  #spin_int > ul > li > p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+
+  #spin_int > ul > li > p > b {font-size: 24px;}
+  /* 스피닝 end */
+}
+/* Desktop */
+
+/* Tablet */
+@media screen and (min-width:768px) and (max-width:1023px) {
+  #t_wrap {
+    width: 100%;
+    margin: 0 auto;
+  }
+  #t_wrap:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  #t_wrap > h1 {
+    font-size: 28px;
+    text-align: center;
+    margin: 30px auto 50px auto;
+  }
+
+  /* t_wrap */
+  /* 공통 */
+  .t_title {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+  .t_pro_img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .t_intro_link > a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+  }
+  .t_intro_link > a:first-child {color: #8b30e0;}
+  .t_intro_link > a:last-child {color: #f2e500;}
+  /* 공통 end */
+
+  #t_pt_int {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  /* PT */
+  #t_pt_int {
+    width: 100%;
+    margin: 0 auto 60px auto;
+  }
+  #t_pt_int:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  #t_pt_int > ul {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #t_pt_int > ul > li {
+    float: left;
+    width: 49%;
+  }
+  #t_pt_int > ul > li:first-child {margin-right: 2%;}
+
+  #t_pt_int > ul > li > p {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  /* PT end */
+
+  /* 필라테스 */
+  #t_phila_int {
+    width: 100%;
+    margin: 0 auto 60px auto;
+  }
+  #t_phila_int:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  #t_phila_int > ul {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #t_phila_int > ul > li {
+    float: left;
+    width: 49%;
+  }
+
+  #t_phila_int > ul > li:first-child {margin-right: 2%;}
+
+  #t_phila_int > ul > li > p {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  /* 필라테스 end */
+
+  /* 요가 */
+  #t_yoga_int {
+    width: 100%;
+    margin: 0 auto 60px auto;
+  }
+  #t_yoga_int:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  #t_yoga_int > ul {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #t_yoga_int > ul > li {
+    float: left;
+    width: 49%;
+  }
+  #t_yoga_int > ul > li:first-child {margin-right: 2%;}
+
+  #t_yoga_int > ul > li > a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+  }
+
+  #t_yoga_int > ul > li > p {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  /* 요가 end */
+
+  /* 스피닝 */
+  #t_spin_int {
+    width: 100%;
+    margin: 0 auto;
+  }
+  #t_spin_int:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  #t_spin_int > ul {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #t_spin_int > ul > li {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  #t_spin_int > ul > li > a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+  }
+
+  #t_spin_int > ul > li > p {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  /* 스피닝 end */
+  /* t_wrap end */
+}
+/* Tablet end */
+
+/* Mobile */
+@media screen and (min-width:360px) and (max-width:767px) {
+  #m_wrap {
+    width: 100%;
+    margin: 0 auto;
+  }
+  #m_wrap:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  #m_wrap > h1 {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  /* 공통 */
+  .m_title {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+  .m_pro_img {
+    width: 100%;
+    height: 100%;
+  }
+  /* 공통 end */
+
+  /* PT */
+  #m_pt_int {
+    width: 100%;
+    margin: 0 auto;
+  }
+  #m_pt_int:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  #m_pt_int > ul,
+  #m_pt_int > ul > li {
+    width: 100%;
+    margin: 0 auto 20px auto;
+  }
+
+  #m_pt_int > ul > li > .m_program_intro {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  #m_pt_int > ul > li > .m_intro_link,
+  #m_pt_int > ul > li > .m_intro_link-g {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #m_pt_int > ul > li > .m_intro_link > a,
+  #m_pt_int > ul > li > .m_intro_link-g > a {
+    display: inline-block;
+    border:1px solid transparent;
+    border-radius:10px;
+    background-image:linear-gradient(45deg,#8b30e0,#f2e500),
+    linear-gradient(45deg,#8b30e0,#f2e500);
+    background-origin:border-box;
+    background-clip:content-box, border-box;
+    text-align: center;
+    padding: 8px 0;
+  }
+  #m_pt_int > ul > li > .m_intro_link > a {
+    width: 45%;
+    height: 100%;
+  }
+  #m_pt_int > ul > li > .m_intro_link-g > a {
+    width: 30%;
+    height: 100%;
+  }
+  /* PT end */
+
+  /* 필라테스 */
+  #m_phila_int {
+    width: 100%;
+    margin: 0 auto;
+  }
+  #m_phila_int:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  #m_phila_int > ul,
+  #m_phila_int > ul > li {
+    width: 100%;
+    margin: 0 auto 20px auto;
+  }
+
+  #m_phila_int > ul > li > .m_program_intro {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  #m_phila_int > ul > li > .m_intro_link,
+  #m_phila_int > ul > li > .m_intro_link-g {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #m_phila_int > ul > li > .m_intro_link > a,
+  #m_phila_int > ul > li > .m_intro_link-g > a {
+    display: inline-block;
+    border:1px solid transparent;
+    border-radius:10px;
+    background-image:linear-gradient(45deg,#8b30e0,#f2e500),
+    linear-gradient(45deg,#8b30e0,#f2e500);
+    background-origin:border-box;
+    background-clip:content-box, border-box;
+    text-align: center;
+    padding: 8px 0;
+  }
+  #m_phila_int > ul > li > .m_intro_link > a {
+    width: 45%;
+    height: 100%;
+  }
+  #m_phila_int > ul > li > .m_intro_link-g > a {
+    width: 30%;
+    height: 100%;
+  }
+  /* 필라테스 end */
+
+  /* 요가 */
+  #m_yoga_int {
+    width: 100%;
+    margin: 0 auto;
+  }
+  #m_yoga_int:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  #m_yoga_int > ul,
+  #m_yoga_int > ul > li {
+    width: 100%;
+    margin: 0 auto 20px auto;
+  }
+
+  #m_yoga_int > ul > li > .m_program_intro {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  #m_yoga_int > ul > li > .m_intro_link,
+  #m_yoga_int > ul > li > .m_intro_link-g {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #m_yoga_int > ul > li > .m_intro_link > a,
+  #m_yoga_int > ul > li > .m_intro_link-g > a {
+    display: inline-block;
+    border:1px solid transparent;
+    border-radius:10px;
+    background-image:linear-gradient(45deg,#8b30e0,#f2e500),
+    linear-gradient(45deg,#8b30e0,#f2e500);
+    background-origin:border-box;
+    background-clip:content-box, border-box;
+    text-align: center;
+    padding: 8px 0;
+  }
+  #m_yoga_int > ul > li > .m_intro_link > a {
+    width: 45%;
+    height: 100%;
+  }
+  #m_yoga_int > ul > li > .m_intro_link-g > a {
+    width: 30%;
+    height: 100%;
+  }
+  /* 요가 end */
+
+  /* 스피닝 */
+  #m_spin_int {
+    width: 100%;
+    margin: 0 auto;
+  }
+  #m_spin_int:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+
+  #m_spin_int > ul,
+  #m_spin_int > ul > li {
+    width: 100%;
+    margin: 0 auto 20px auto;
+  }
+
+  #m_spin_int > ul > li > .m_program_intro {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  #m_spin_int > ul > li > .m_intro_link-g {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #m_spin_int > ul > li > .m_intro_link-g > a {
+    display: inline-block;
+    border:1px solid transparent;
+    border-radius:10px;
+    background-image:linear-gradient(45deg,#8b30e0,#f2e500),
+    linear-gradient(45deg,#8b30e0,#f2e500);
+    background-origin:border-box;
+    background-clip:content-box, border-box;
+    text-align: center;
+    padding: 8px 0;
+  }
+  #m_spin_int > ul > li > .m_intro_link-g > a {
+    width: 30%;
+    height: 100%;
+  }
+  /* 스피닝 end */
+}
+/* Mobile end */

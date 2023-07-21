@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>지점안내</title>
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/map_page.css">
+  <script defer src="../js/jquery-3.6.4.min.js"></script>
+  <script defer src="../js/map_category.js"></script>
+  <script defer src="../js/burgerBtn.js"></script>
+</head>
+<body>
+  <!-- Desktop -->
+  <div id="D_wrap">
+    <header>
+      <h1 class="logo">
+        <a href="../index.html"><img src="../image/E&A_logo.png" alt="E&A GYM 메인로고" class="logo_img"></a>
+      </h1>
+      <ul>
+        <li><a href="#" class="login_btn">로그인</a></li>
+        <li><a href="#" class="join_btn">회원가입</a></li>
+      </ul>
+    </header>
+
+    <nav id="main_nav">
+      <ul>
+        <li class="nav_btn"><a href="#">E&A소개</a></li>
+        <li class="nav_btn"><a href="program_page.html">프로그램</a></li>
+        <li class="nav_btn"><a href="map_page.html">지점안내</a></li>
+        <li class="nav_btn"><a href="#">회원페이지</a></li>
+      </ul>
+    </nav>
+
+    <div id="wrap">
+      <h1>지점안내</h1>
+      <div id="location">
+        <select onchange="categoryChange(this)" class="main_lo">
+          <option value="a">서울</option>
+          <option value="b">경기도</option>
+          <option value="c">충청도</option>
+          <option value="d">강원도</option>
+          <option value="e">전라도</option>
+          <option value="f">경상도</option>
+          <option value="g">광역시</option>
+          <option value="h">특별자치시/도</option>
+        </select>
+        <select id="selectLocation">
+          <option>지역을 선택해주세요.</option>
+        </select>
+      </div>
+
+      <div id="shop">
+        <div class="shop_intro">
+          <h1>서울역점</h1>
+          <img src="../image/3-1.지점안내1.png" alt="서울역점 지점안내" class="shop_img">
+          <p>
+            <b>영업시간: </b>평일 오전 6시 ~ 오후 11시
+            <br>토, 일, 법정 공휴일 오전 8시 ~ 오후 6시
+            <br>명절(구정, 추석) 휴무
+          </p>
+          <p><b>연락처: </b>02)000-0000</p>
+        </div>
+        <div class="shop_map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6326.1202526422685!2d126.96645362746487!3d37.55364717485431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca266e3947003%3A0xe7be97c172b7af6a!2z7ISc7Jq47Jet!5e0!3m2!1sko!2skr!4v1654753166417!5m2!1sko!2skr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <p><b>주소: </b>서울특별시 중구 소공동 세종대로 18길 2</p>
+        </div>
+
+        <div class="shop_intro">
+          <h1>신림점</h1>
+          <img src="../image/3-2.지점안내2.jpg" alt="신림점 지점안내" class="shop_img">
+          <p>
+            <b>영업시간: </b>평일 오전 6시 ~ 오후 11시
+            <br>토, 일, 법정 공휴일 오전 8시 ~ 오후 6시
+            <br>명절(구정, 추석) 휴무
+          </p>
+          <p><b>연락처: </b>02)000-0000</p>
+        </div>
+        <div class="shop_map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25334.899546337507!2d126.91926922069577!3d37.463969621972964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c9fbf065f93bb%3A0x7dd45f399ee78afc!2z7Iug66a87Jet!5e0!3m2!1sko!2skr!4v1654753915465!5m2!1sko!2skr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <p><b>주소: </b>서울특별시 관악구 남부순환로 1614</p>
+        </div>
+  
+        <div class="shop_intro">
+          <h1>강남점</h1>
+          <img src="../image/3-3.지점안내3.jpg" alt="강남점 지점안내" class="shop_img">
+          <p>
+            <b>영업시간: </b>평일 오전 6시 ~ 오후 11시
+            <br>토, 일, 법정 공휴일 오전 8시 ~ 오후 6시
+            <br>명절(구정, 추석) 휴무
+          </p>
+          <p><b>연락처: </b>02)000-0000</p>
+        </div>
+        <div class="shop_map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3165.4347264442035!2d127.02589431558684!3d37.49766373582657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca1598c361b2b%3A0xdbf9af292beff3c!2z6rCV64Ko!5e0!3m2!1sko!2skr!4v1654754046536!5m2!1sko!2skr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <p><b>주소: </b>서울특별시 강남구 강남대로 396</p>
+        </div>
+      </div>
+
+      <footer>
+        <div id="intro">
+          <ul>
+            <li><a href="#">회사소개</a></li>
+            <li><a href="#">입사지원</a></li>
+            <li><a href="#">제휴문의</a></li>
+            <li><a href="#">이용약관</a></li>
+            <li><a href="#">개인정보처리방침</a></li>
+          </ul>
+        </div>
+
+        <div id="sns">
+          <ul>
+            <li><a href="#">E&A 공식 카카오톡 채널<br>@E&A_GYM</a></li>
+            <li>
+              <p>
+                상담 가능시간
+                <br>월~금: 오전 10시 ~ 오후 6시
+                <br>상담업무휴무일
+                <br>: 토, 일, 법정공휴일
+              </p>
+            </li>
+            <li>
+              <p>
+                무통장 입금계좌
+                <br>한국은행 0000-00-000000
+                <br>(주식회사 E&A)
+              </p>
+            </li>
+            <li>
+              <div class="sns_list">
+                <a href="#"><img src="../image/instagram.png" alt="인스타그램" class="sns_img"></a>
+                <a href="#"><img src="../image/naver_blog.png" alt="네이버 블로그" class="sns_img"></a>
+                <a href="#"><img src="../image/youtube.png" alt="유튜브" class="sns_img"></a>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div id="info">
+          <p>
+            (주)E&A 대표 이민희 | 개인정보보호책임자 이민희 | 경기도 부천시 원미구 심곡동 | 통신판매업신고번호 2022-경기부천-1111
+            <br>등록번호 000-00-00000 | 본사 전화번호 031 000 0000 | info@EACorp.co.kr | Hosting by (주) 그린컴
+          </p>
+          <p>ⓒ2022 Suplies, Inc. ALL RIGHTS RESERVED</p>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <!-- Desktop end -->
+
+  <!-- Tablet -->
+  <div id="T_wrap">
+    <header>
+      <h1 class="t_logo">
+        <a href="../index.html"><img src="../image/E&A_logo.png" alt="E&A GYM 메인로고" class="logo_img"></a>
+      </h1>
+      <ul>
+        <li><a href="#" class="login_btn">로그인</a></li>
+        <li><a href="#" class="join_btn">회원가입</a></li>
+      </ul>
+    </header>
+
+    <nav id="t_main_nav">
+      <ul>
+        <li class="t_nav_btn"><a href="#">E&A 소개</a></li>
+        <li class="t_nav_btn"><a href="program_page.html">프로그램</a></li>
+        <li class="t_nav_btn"><a href="map_page.html">지점안내</a></li>
+        <li class="t_nav_btn"><a href="#">회원페이지</a></li>
+      </ul>
+    </nav>
+
+    <div id="t_wrap">
+      <h1>지점안내</h1>
+      <div id="t_location">
+        <select onchange="categoryChange2(this)" class="main_lo">
+          <option value="a">서울</option>
+          <option value="b">경기도</option>
+          <option value="c">충청도</option>
+          <option value="d">강원도</option>
+          <option value="e">전라도</option>
+          <option value="f">경상도</option>
+          <option value="g">광역시</option>
+          <option value="h">특별자치시/도</option>
+        </select>
+        <select id="selectLocation2">
+          <option>지역을 선택해주세요.</option>
+        </select>
+      </div>
+
+      <div id="t_shop">
+        <div class="t_shop_intro">
+          <h1>서울역점</h1>
+          <img src="../image/3-1.지점안내1.png" alt="서울역점 지점안내" class="t_shop_img">
+          <p>
+            <b>영업시간: </b>평일 오전 6시 ~ 오후 11시
+            <br>토, 일, 법정공휴일: 오전 8시 ~ 오후 6시
+            <br>명절(구정, 추석) 휴무
+          </p>
+          <p><b>연락처: </b>02) 000-0000</p>
+        </div>
+        <div id="t_shop_map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6326.1202526422685!2d126.96645362746487!3d37.55364717485431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca266e3947003%3A0xe7be97c172b7af6a!2z7ISc7Jq47Jet!5e0!3m2!1sko!2skr!4v1654753166417!5m2!1sko!2skr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <p><b>주소: </b>서울특별시 중구 소공동 세종대로 18길 2</p>
+        </div>
+
+        <div class="t_shop_intro">
+          <h1>신림점</h1>
+          <img src="../image/3-2.지점안내2.jpg" alt="신림점 지점안내" class="t_shop_img">
+          <p>
+            <b>영업시간: </b>평일 오전 6시 ~ 오후 11시
+            <br>토, 일, 법정공휴일: 오전 8시 ~ 오후 6시
+            <br>명절(구정, 추석) 휴무
+          </p>
+          <p><b>연락처: </b>02) 000-0000</p>
+        </div>
+        <div id="t_shop_map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25334.899546337507!2d126.91926922069577!3d37.463969621972964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c9fbf065f93bb%3A0x7dd45f399ee78afc!2z7Iug66a87Jet!5e0!3m2!1sko!2skr!4v1654753915465!5m2!1sko!2skr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <p><b>주소: </b>서울특별시 관악구 남부순환로 1614</p>
+        </div>
+
+        <div class="t_shop_intro">
+          <h1>강남점</h1>
+          <img src="../image/3-3.지점안내3.jpg" alt="강남점 지점안내" class="t_shop_img">
+          <p>
+            <b>영업시간: </b>평일 오전 6시 ~ 오후 11시
+            <br>토, 일, 법정공휴일: 오전 8시 ~ 오후 6시
+            <br>명절(구정, 추석) 휴무
+          </p>
+          <p><b>연락처: </b>02) 000-0000</p>
+        </div>
+        <div id="t_shop_map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3165.4347264442035!2d127.02589431558684!3d37.49766373582657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca1598c361b2b%3A0xdbf9af292beff3c!2z6rCV64Ko!5e0!3m2!1sko!2skr!4v1654754046536!5m2!1sko!2skr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <p><b>주소: </b>서울특별시 강남구 강남대로 396</p>
+        </div>
+      </div>
+
+      <footer>
+        <div id="t_intro">
+          <ul>
+            <li><a href="#">회사소개</a></li>
+            <li><a href="#">입사지원</a></li>
+            <li><a href="#">제휴문의</a></li>
+            <li><a href="#">이용약관</a></li>
+            <li><a href="#">개인정보처리방침</a></li>
+          </ul>
+        </div>
+
+        <div id="t_sns">
+          <ul>
+            <li><a href="#">E&A 공식 카카오톡 채널<br>@E&A_GYM</a></li>
+            <li>
+              <p>
+                상담 가능시간
+                <br>월~금: 오전 10시 ~ 오후 6시
+                <br>상담업무휴무일
+                <br>: 토, 일, 법정공휴일
+              </p>
+            </li>
+            <li>
+              <p>
+                무통장 입금계좌
+                <br>한국은행 0000-00-000000
+                <br>(주식회사 E&A)
+              </p>
+            </li>
+            <li>
+              <div class="t_sns_list">
+                <a href="#"><img src="../image/instagram.png" alt="인스타그램" class="t_sns_img"></a>
+                <a href="#"><img src="../image/naver_blog.png" alt="네이버 블로그" class="t_sns_img"></a>
+                <a href="#"><img src="../image/youtube.png" alt="유튜브" class="t_sns_img"></a>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div id="t_info">
+          <p>
+            (주)E&A 대표 이민희 | 개인정보보호책임자 이민희 | 경기도 부천시 원미구 심곡동 | 통신판매업신고번호 2022-경기부천-1111
+            <br>등록번호 000-00-00000 | 본사 전화번호 031 000 0000 | info@EACorp.co.kr | Hosting by (주) 그린컴
+          </p>
+          <p>ⓒ2022 Suplies, Inc. ALL RIGHTS RESERVED</p>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <!-- Tablet end -->
+
+  <!-- Mobile -->
+  <div id="M_wrap">
+    <header>
+      <h1>
+        <a href="../index.html"><img src="../image/E&A_logo.png" alt="E&A GYM 메인로고" class="logo_img"></a>
+      </h1>
+      <div id="slide_open" class="slide_open">
+        <span id="burger" class="burger">
+          <span class="top-line"></span>
+          <span class="bottom-line"></span>
+        </span>
+      </div>
+      <div id="slide_menu">
+        <ul class="m_list">
+          <li><a href="#" class="login_btn">로그인</a></li>
+          <li><a href="#" class="join_btn">회원가입</a></li>
+          <li><a href="#">E&A 소개</a></li>
+          <li><a href="program_page.html">프로그램</a></li>
+          <li><a href="map_page.html">지점안내</a></li>
+          <li><a href="#">회원 페이지</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <div id="m_wrap">
+      <h1>지점안내</h1>
+      <div id="location">
+        <select onchange="categoryChange3(this)">
+          <option value="a">서울</option>
+          <option value="b">경기도</option>
+          <option value="c">충청도</option>
+          <option value="d">강원도</option>
+          <option value="e">전라도</option>
+          <option value="f">경상도</option>
+          <option value="g">광역시</option>
+          <option value="h">특별자치시/도</option>
+      </select>
+      <select id="selectLocation3">
+          <option>지역을 선택해주세요.</option>
+      </select>
+      </div>
+
+      <div id="m_shop">
+        <div class="m_shop_intro">
+          <h1>서울역점</h1>
+          <img src="../image/3-1.지점안내1.png" alt="서울역점 지점안내" class="m_shop_img">
+          <p>
+            <b>영업시간: </b>평일 오전 6시 ~ 오후 11시
+            <br>토, 일, 법정공휴일 오전 8시 ~ 오후 6시
+            <br>명절(구정, 추석) 휴무
+          </p>
+          <p><b>연락처: </b>02) 000-0000</p>
+        </div>
+        <div id="m_shop_map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6326.1202526422685!2d126.96645362746487!3d37.55364717485431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca266e3947003%3A0xe7be97c172b7af6a!2z7ISc7Jq47Jet!5e0!3m2!1sko!2skr!4v1654753166417!5m2!1sko!2skr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <p><b>주소: </b>서울특별시 중구 소공동 세종대로 18길</p>
+        </div>
+
+        <div class="m_shop_intro">
+          <h1>신림점</h1>
+          <img src="../image/3-2.지점안내2.jpg" alt="신림점 지점안내" class="m_shop_img">
+          <p>
+            <b>영업시간: </b>평일 오전 6시 ~ 오후 11시
+            <br>토, 일, 법정공휴일 오전 8시 ~ 오후 6시
+            <br>명절(구정, 추석) 휴무
+          </p>
+          <p><b>연락처: </b>02) 000-0000</p>
+        </div>
+        <div id="m_shop_map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25334.899546337507!2d126.91926922069577!3d37.463969621972964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c9fbf065f93bb%3A0x7dd45f399ee78afc!2z7Iug66a87Jet!5e0!3m2!1sko!2skr!4v1654753915465!5m2!1sko!2skr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <p><b>주소: </b>서울특별시 관악구 남부순환로 1614</p>
+        </div>
+
+        <div class="m_shop_intro">
+          <h1>강남점</h1>
+          <img src="../image/3-1.지점안내1.png" alt="강남점 지점안내" class="m_shop_img">
+          <p>
+            <b>영업시간: </b>평일 오전 6시 ~ 오후 11시
+            <br>토, 일, 법정공휴일 오전 8시 ~ 오후 6시
+            <br>명절(구정, 추석) 휴무
+          </p>
+          <p><b>연락처: </b>02) 000-0000</p>
+        </div>
+        <div id="m_shop_map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3165.4347264442035!2d127.02589431558684!3d37.49766373582657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca1598c361b2b%3A0xdbf9af292beff3c!2z6rCV64Ko!5e0!3m2!1sko!2skr!4v1654754046536!5m2!1sko!2skr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <p><b>주소: </b>서울특별시 강남구 강남대로 396</p>
+        </div>
+      </div>
+
+      <footer>
+        <ul>
+          <li>
+            <a href="#">
+              <img src="../image/instagram.png" alt="인스타그램" class="m_sns_img">
+              <span class="sns_title">INSTAGRAM</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="../image/naver_blog.png" alt="네이버블로그" class="m_sns_img">
+              <span class="sns_title">NAVER BLOG</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="../image/youtube.png" alt="유튜브" class="m_sns_img">
+              <span class="sns_title">YOUTUBE</span>
+            </a>
+          </li>
+          <li><a href="#" class="kakao_info">E&A 공식<br>카카오톡 채널@E&A GYM</a></li>
+          <li>
+            <p>
+              상담가능시간
+              <br>월~금: 오전 10시 ~ 오후 6시
+              <br>상담업무휴무: 토, 일, 법정공휴일
+            </p>
+          </li>
+          <li>
+            <p>
+              무통장 입금 계좌
+              <br>한국은행 0000-00-000000
+              <br>(주식회사 E&A)
+            </p>
+          </li>
+        </ul>
+
+        <p id="m_info">
+          (주)E&A 대표 이민희 | 개인정보보호책임자 이민희 | 경기도 부천시 원미구 심곡동 | 통신판매업신고번호 2022-경기부천-1111
+          <br>등록번호 000-00-00000 | 본사 전화번호 031 000 0000 | info@EACorp.co.kr | Hosting by (주) 그린컴
+          <br>
+          <br>ⓒ2022 Supplies, Inc. ALL RIGHTS RESERVED.
+        </p>
+      </footer>
+    </div>
+  </div>
+  <!-- Mobile end -->
+</body>
+</html>
