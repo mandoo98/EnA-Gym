@@ -4,12 +4,14 @@
 # 🔎About Project
 가상의 프랜차이즈 헬스장의 반응형 웹페이지입니다. 저의 두 번째 작품이자 첫 번째 개인 작품입니다.
 
+E&A GYM의 E는 'Everywhere', A는 'Anywhere'의 의미를 가지며, '언제 어디서든 당신의 운동을 서포트하는 헬스장'이라는 의미를 담고 있습니다.
+
 # 📋Develop Period
 2022.05.17 ~ 2022.06.16
 ![image](https://github.com/mandoo98/EnA-Gym/assets/128768591/7b23057b-7ae6-4023-92d6-c29f45628f99)
 
 # 🛠️What used
-Html, css, javascript, jQuery
+Html, css, javascript, jQuery, swiper
 
 # ✔️Point
 두 번째 프로젝트이지만 첫 번째 개인 작품이었기 때문에 기간내에 원하는 기능을 전부 구현할 수 있도록 최선을 다했습니다.
